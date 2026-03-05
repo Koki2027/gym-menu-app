@@ -1,40 +1,20 @@
-\# Gym Menu Generator
+# Gym Menu Generator
 
+筋トレのメニューを自動生成するWebアプリです。  
+BIG3重量を入力すると、推定1RMを計算し、Push/Pull/Legsのトレーニングメニューを生成します。
 
-
-PythonとStreamlitを用いた筋トレメニュー生成アプリです。
-
-
-
-\## 機能
-
-
+## 機能
 
 ・BIG3重量入力  
-
 ・推定1RM計算  
+・トレーニングメニュー自動生成  
 
-・Push / Pull / Legs メニュー自動生成  
-
-・トレーニング重量自動計算  
-
-
-
-\## 使用技術
-
-
+## 使用技術
 
 Python  
-
 Streamlit  
-
 pandas  
 
+## 実行方法
 
-
-\## 実行方法
-
-
-
-streamlit run menu\_app.py
-
+streamlit run menu_app.py
